@@ -8,13 +8,31 @@
 
 //  repatext("salam", 10);
 
-//////////////////////////////////////////////////////////////////// ders 4 tabsriq 1  yarimciq qailib
+//////////////////////////////////////////////////////////////////// ders 4 tabsriq 2  
 
 
-// function zerat(a) {
-// a.Math.random()
-//  console.log(a)   
-
+// function area(a, b) {
+//     return a * b;
 // }
 
-// zerat(5)
+// console.log(area(10, 50))
+
+
+//////////////////////////////////////////////////////////////////// ders 4 tabsriq 3
+
+// function perimetir(a, b) {
+//     return (a + b) * 2
+// }
+
+// console.log(perimetir(10, 50))
+
+
+
+//////////////////////////////////////////////////////////////////// ders 4 tabsriq 4
+
+function zerat(a) {
+ return Math.floor((Math.random() * 6) + 1)  
+
+
+}
+console.log(zerat())
